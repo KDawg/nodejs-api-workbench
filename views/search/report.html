@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <title>Reporting From Instagram Search</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./stylesheets/app.css">
+</head>
+
+<body>
+
+<h2>User Account Images</h2>
+<p>This contact sheet displays recent media posted by <strong>{{userAccount}}</strong> on Instagram.</p>
+
+{{#each items}}
+
+<div class="report-entry">
+  <img src="{{images.thumbnail.url}}"/>
+  <p class="text-center"><strong>{{date-time created_time}}</strong></p>
+  <p class="text-center">Likes: <strong>{{likes.count}}</strong> <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span></p>
+  <p class="text-center">Comments: <strong>{{comments.count}}</strong> <span class="glyphicon glyphicon-comment" aria-hidden="true"></span></p>
+</div>
+
+{{/each}}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

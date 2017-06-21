@@ -1,0 +1,16 @@
+body {
+  background-color: #f0f0f0;
+  padding: 1em;
+}
+
+.report-entry {
+  display: inline-block;
+}
+
+.report-entry img {
+  background-color: #ffffff;
+  border: 2px solid #aaaaaa;
+  border-radius: 5px;
+  padding: 1.0em;
+  margin: 0.75em;
+}
