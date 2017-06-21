@@ -24,8 +24,8 @@ customary when first setting up a NodeJS project:
 
     npm install
  
-It references the `dependencies` section of the [`package.json`](...) file to understand the right 
-OSS libraries to pull down. 
+It references the `dependencies` and `devDependencies` sections of the [`package.json`](https://github.com/KDawg/nodejs-api-workbench/blob/master/package.json#L15) 
+file to understand the right OSS libraries to pull down. 
 
 #### Start the Server
 
@@ -33,7 +33,7 @@ Enter this command to run the app web sever:
 
     npm run start 
 
-You'll see this declared in the `scripts` section of the [`package.json`](...) file.  
+You'll see this declared in the `scripts` section of the [`package.json`](https://github.com/KDawg/nodejs-api-workbench/blob/master/package.json#L6) file.  
 
 #### See the Experience
 
@@ -107,7 +107,7 @@ Package Name | Description
 #### NPM Commands
 
 Common tasks are automated using `npm run` commands. You'll see all of them listed in the 
- [`package.json`](...) 
+ [`package.json`](https://github.com/KDawg/nodejs-api-workbench/blob/master/package.json#L6) 
  file under the **scripts** section.
 
 Remember that you can learn all of the project's run commands via this:
