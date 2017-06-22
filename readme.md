@@ -6,7 +6,7 @@ This is a reference implementation for calling the Instagram media API.
 It's a simple demonstration webapp showing a typical UX workflow based around 
 searching for a user's most recently submitted media.
 
-See how JavaScript can be used on the backend. That is **fantastic** because a frontend
+See how JavaScript can be used on the backend powered by NodeJS. That is **fantastic** because a frontend
 web developer will find they can become fullstack! Team leaders choosing a similar 
 tech stack will enable their people to be more awesome.
 
