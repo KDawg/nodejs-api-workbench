@@ -78,7 +78,7 @@ Let's go through them showing what web server routes implement them.
     localhost:3000/
 
 The default route draws a user interface asking for an Instagram user account. Interesting
-ones to pick: usinterio, natgeotravel, therock, kentabor.
+ones to pick: usinterior, natgeotravel, therock, kentabor.
 
 #### Report Media Contact Sheet
 
